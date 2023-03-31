@@ -1,0 +1,260 @@
+
+        .img1 {
+            margin-right: 100px;
+            margin-top: -440px;
+            width: 30%;
+
+            float: right;
+            position: relative;
+
+            animation: 4s linear 0s infinite alternate example;
+
+
+
+        }
+
+        p {
+            color: white;
+            font-size: large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: justify;
+            text-justify: inter-word;
+            margin-right: 900px;
+            margin-left: 25px;
+
+
+
+        }
+
+        .container {
+            margin-right: 3px;
+            margin-left: 3px;
+
+
+        }
+
+        h1 {
+            font-size: 100px;
+            color: rgb(34, 33, 32);
+        }
+
+        h1::first-letter {
+            font-size: larger;
+            color: white;
+            margin-left: 10px;
+        }
+
+        .card {
+            border-radius: 1.2em;
+            border-color: brown;
+            background-color: brown;
+            opacity: 0.9;
+            height: 500px;
+
+
+        }
+
+        .card1 {
+            border-radius: 1.2em;
+            border-color: rgb(221, 210, 13);
+            background-color: rgb(221, 210, 13);
+            opacity: 0.9;
+            height: 500px;
+
+
+        }
+
+
+        .card2 {
+
+            border-radius: 1.2em;
+            border-color: rgb(27, 221, 13);
+            background-color: rgb(27, 221, 13);
+            opacity: 0.9;
+            height: 500px;
+
+        }
+
+
+        .card3 {
+
+            border-radius: 1.2em;
+            border-color: chocolate;
+            background-color: chocolate;
+            opacity: 0.9;
+            height: 500px;
+
+        }
+
+        .card4 {
+
+            border-radius: 1.2em;
+            border-color: rgb(0, 0, 0);
+            background-color: rgb(0, 0, 0);
+            opacity: 0.9;
+            height: 500px;
+
+        }
+
+
+        .card5 {
+
+            border-radius: 1.2em;
+            border-color: rgb(112, 27, 182);
+            background-color: rgb(112, 27, 182);
+            opacity: 0.9;
+            height: 500px;
+
+        }
+
+
+        .card6 {
+
+            border-radius: 1.2em;
+            border-color: rgb(21, 9, 157);
+            background-color: rgb(21, 9, 157);
+            opacity: 0.9;
+            height: 500px;
+
+        }
+
+
+        /* The animation code */
+        @keyframes example {
+            from {
+                top: 0px;
+            }
+
+            to {
+                top: 200px;
+            }
+
+        }
+
+
+        @media screen and (max-width:1444px) {
+
+            .container {
+                width: 250%;
+
+            }
+
+            footer{
+                width: 245%;
+            }
+
+            nav{
+                width: 250%;
+            }
+
+            p {
+                font-size: medium;
+            }
+
+            img {
+                width: 35%;
+            }
+
+
+        }
+
+        nav {
+
+            background-color: blueviolet;
+            border-radius: 1.3em;
+            height: 295px;
+            margin-top: -100px;
+            padding-bottom: 90px;
+
+
+
+        }
+
+        .button {
+            float: right;
+            margin-right: 10px;
+            display: inline;
+            margin-top: -100px;
+            margin-left: 30px;
+
+
+
+
+        }
+
+        button {
+            background-color: transparent;
+            border: none;
+            width: 5%;
+            border-color: transparent;
+
+
+
+
+
+        }
+
+        .img2 {
+
+            width: 100%;
+
+
+        }
+
+
+
+        button:hover {
+            width: 7%;
+        }
+
+        
+       .social{
+        text-align: center;
+        position: relative;
+        animation: 1s linear 0s infinite alternate example2;
+       }
+
+       svg:hover{
+        padding: 0px 15px 0px 15px;
+       }
+
+
+         /* The animation code */
+         @keyframes example2 {
+            from {
+                top: 0px;
+            }
+
+            to {
+                top: 25px;
+            }
+
+        }
+
+        input {
+            width: 20%;
+            height: 15%;
+            border-radius: 1.3em;
+            background-color: white;
+            float: right;
+            margin-right: 20px;
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 35px;
+            margin-top: 10px;
+
+        }
+
+        footer {
+            background-color: black;
+            border-radius: 1.3em;
+            padding: 20px 20px 70px 20px;
+            margin-top: 30px;
+        }
+
+        h2,
+        h4 {
+            color: white;
+            text-align: center;
+
+        }
